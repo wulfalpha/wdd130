@@ -1,86 +1,127 @@
+.home-title {
+font-family : 'Calibri', 'Consolas', 'Arial';
+font-size : 2em;
+margin-top : 10px;
+}
+#logo_link {
+padding-top : 5px;
+}
 content {
-    max-width: 1600px;
-    margin: 0 auto;
+max-width : 1600px;
+margin : 0 auto;
 }
 nav a {
-    margin: 0 auto;
-    color: #d4ac0d;
-    text-decoration: none;
+margin : 0 auto;
+color : #d4ac0d;
+text-decoration : none;
+padding : 35px;
 }
 #hero-msg h1, #hero-msg h4 {
-    margin: 0 auto;
+margin : 0 auto;
 }
 .button-box {
-    margin: 0 auto;
+margin : 0 auto;
 }
 main section {
-    margin: 0 auto:
+margin : 0;
+}
+main section img {
+box-sizing : border-box;
 }
 #background {
-    height: 725px;
-    background_color: #1c1d21ff;
+height : 725px;
+background-color : #1c1d21ff;
 }
 body {
-    background_color: #1c1d21ff;
+background-color : #1c1d21ff;
+font-family : 'Consolas', 'Arial', 'monoco';
+font-size : 22px;
+margin : 0;
+padding : 0;
+}
+h2 {
+margin : 0;
 }
 header {
-    background_color: #1c1d21ff;
+background-color : #1c1d21ff;
 }
 nav a:hover {
-    background_color: #1c1d21ff;
-    color: white;
+background-color : #1c1d21ff;
+color : white;
 }
 .book, .join {
-    text-align: center;
-    background_color: #1c1d21ff;
-    color: whitesmoke;
-    text-decoration: none;
+text-align : center;
+background-color : #1c1d21ff;
+color : whitesmoke;
+text-decoration : none;
+font-family : 'Consolas', 'Arial', 'monoco';
+font-size : 18px;
+padding : 15px 30px;
+margin-top : 50px;
+border-radius : 5px;
+}
+.rivers-card, .camping-card, .rapids-card {
+margin : 200px 0;
+color : whitesmoke;
 }
 .book:hover, .join:hover {
-    background_color: #1c1d21ff;
-    color: red;
+background-color : #1c1d21ff;
+color : red;
+}
+.card-img {
+border : black solid 10px;
 }
 .msg {
-    background_color: #1c1d21ff;
+background-color : #1c1d21ff;
+line-height : 1.5em;
+padding-bottom : 35px;
 }
 footer {
-    background_color: #1c1d21ff;
-    color: white;
+background-color : #1c1d21ff;
+color : white;
+padding : 25px 50px;
+margin-top : 200px;
+}
+footer .social img {
+padding-top : 15px;
 }
 .home-title {
-    color: #d4ac0d;
+color : #d4ac0d;
 }
 h4 {
-    color: white;
+color : white;
 }
 .msg h2 {
-    color: whitesmoke;
+color : whitesmoke;
 }
 .msg p {
-    color: x;
+font-family : 'Consolas', 'Arial', 'Monoco';
+color: whitesmoke;
+font-size : 0.8em;
 }
 footer {
-    color: white;
+color : white;
 }
 footer p {
-    font-size: 1.2em;
+font-size : 1.2em;
 }
 footer p a:hover {
-    text-decoration: underline;
+text-decoration : underline;
 }
 footer a {
-    color: whitesmoke;
-    text-decoration: none;
+color : whitesmoke;
+text-decoration : none;
 }
 footer a:hover {
-    color: #d4ac0d;
+color : #d4ac0d;
 }
 .logo {
-    width: 100em
+width : 100em;
 }
 .icon {
-    width: 80px;
+width : 80px;
+padding-top : 10px;
 }
 #hero-img {
-    width: 100em;
+width : 100em;
 }
