@@ -15,15 +15,19 @@ margin : 0 auto;
 color : #d4ac0d;
 text-decoration : none;
 padding : 35px;
+text-align: center;
 }
 #hero-msg h1, #hero-msg h4 {
 margin : 0 auto;
+text-align: center;
 }
 .button-box {
 margin : 0 auto;
+text-align: center;
 }
 main section {
 margin : 0;
+text-align: center;
 }
 main section img {
 box-sizing : border-box;
