@@ -85,7 +85,6 @@ color : white;
 }
 .book, .join {
 text-align : center;
-background-color : #1c1d21ff;
 color : whitesmoke;
 text-decoration : none;
 font-family : 'Consolas', 'Arial', 'monoco';
@@ -94,12 +93,15 @@ padding : 15px 30px;
 margin-top : 50px;
 border-radius : 5px;
 }
+.join {
+background-color : #1c1d21ff;
+}
 .rivers-card, .camping-card, .rapids-card {
 margin : 200px 0;
 color : whitesmoke;
 }
 .book:hover, .join:hover {
-background-color : #1c1d21ff;
+background-color : #d4ac0d;
 color : red;
 }
 .card-img {
