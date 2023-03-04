@@ -1,3 +1,6 @@
+.home-title {
+margin-top: 10px;
+}
 header {
 background-color: #1c1d21ff;
 display: grid;
@@ -92,6 +95,7 @@ color : white;
 text-align : center;
 color : whitesmoke;
 text-decoration : none;
+border-radius: 5px;
 font-family : 'Consolas', 'Arial', 'monoco';
 font-size : 18px;
 padding : 15px 30px;
@@ -137,6 +141,9 @@ grid-column: 6/10;
 grid-row: 6/7;
 box-shadow: 5px 5px 10px #6f7364;
 }
+main section img {
+  box-sizing: border-box;
+}
 .mountains {
 width: 100%;
 grid-column: 2/7;
@@ -164,6 +171,7 @@ color : white;
 .msg {
 grid-column: 6/10;
 grid-row: 6/7;
+padding: 35px;
 }
 .msg h2 {
 color : whitesmoke;
@@ -172,6 +180,7 @@ color : whitesmoke;
 font-family : 'Consolas', 'Arial', 'Monoco';
 color: whitesmoke;
 font-size : 0.8em;
+padding-bottom: 15px;
 }
 footer p {
 font-size : 1.2em;
@@ -193,6 +202,93 @@ padding-top : 10px;
 #hero-img {
 width : 100%;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -208,7 +304,7 @@ width : 100%;
     #hero {
         margin-top: 0;
     }
-    #hero-msg {
+    #hero-msg, .msg {
         margin-top: 0;
     }
     #hero-msg h4 {
