@@ -24,6 +24,10 @@ color : white;
 .logo {
 width : 80px;
 }
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
 #logo_link {
 padding-top : 5px;
 justify-self: center;
