@@ -98,7 +98,7 @@ main p {
 }
 .Gallery {
     display: grid;
-    grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template: 1fr 1fr 1fr 1fr 1fr;
 }
 .runes-card {
     grid-column: 2/4;
@@ -129,9 +129,10 @@ main p {
     border : black solid 10px;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7c64;
+}
 .card-img:hover {
     opacity: .6;
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
 }
 footer {
