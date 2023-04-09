@@ -170,7 +170,7 @@ main p {
     width: 100%;
     border : black solid 10px;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7c64;
+    box-shadow: 5px 5px 10px #736b92;
 }
 .card-img:hover {
     opacity: .6;
