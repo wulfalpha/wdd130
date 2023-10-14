@@ -1,0 +1,10 @@
+My personal Website proposal.
+
+My personal website for this assignemnt I am proposing is a replacement for a managed site I already have. The aim will be two fold. As it will be replacing my existing site it must be a showcase for my writings. Showing my characters and other things so that I can show my work to fans/ readers/ potential readers and the like.
+Second The site itself will be a showcase of what I have learned and what I can do with HTML CSS. The purpose or aim here is to serve these two purposes. Show my written work and physically represent what I can do in my coding.
+
+It will have two to three pages. There will be a landing page that the index page goes to first. The landing page will show  more specific information about me. news about what I'm up to in my fiction writing.. It is designed to be an at a glance site that people can go to first when referred to the site from a busines card for example.
+
+The Home page will have images in a gallary that shows Images from my works of fiction, eventually even showing things like book covers.
+
+The last page will be a more traditional About Me page with email information to contact me. It may also include images and will take links for my social media.
