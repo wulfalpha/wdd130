@@ -3,6 +3,8 @@ max-width: 1600px;
 margin: 0 auto;
 }
 .home-title {
+font-family: 'Consolas', 'Arial', 'monoco';
+font-size: 2em;
 margin-top: 10px;
 }
 header {
