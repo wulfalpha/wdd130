@@ -112,6 +112,10 @@ padding : 15px 30px;
 margin-top : 50px;
 border-radius : 5px;
 }
+.book {
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
 .join {
 background-color : #1c1d21ff;
 }
